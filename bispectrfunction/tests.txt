@@ -1,0 +1,37 @@
+y=bispectr(x,k,k2,1)
+
+tests made on PIV 1,4GHz 256K
+
+%1024 pts.at k=4	 	made for 0.05sec  
+%1024 pts.at k=2	 	made for 0.06sec   
+%4096 pts.at k=1 	 	made for 2sec 
+%4096 pts.at k=2 	 	made for 0.55sec 
+%4096 pts.at k=4 	 	made for 0.27sec 
+%8192 pts.at k=8  	 	made for 0.93sec 
+%8192 pts.at k=16 	 	made for 0.88sec 
+%8192 pts.at k=32 	 	made for 0.83sec 
+%8192 pts.at k=64 	 	made for 0.88sec 
+%16384 pts.at k=16 	 	made for 3.9sec 
+%16384 pts.at k=64 	 	made for 3.57sec 
+%16384 pts.at k=128 	 	made for 3.52sec 
+%32768 pts.at k=128 	 	made for 13.6sec 
+%32768 pts.at k=256 	 	made for 13.5sec 
+%32768 pts.at k=256,k2=2 	made for 6.87-7.5sec 
+%32768 pts.at k=256,k2=4 	made for 3.46 sec 
+%32768 pts.at k=128,k2=8 	made for 1.81 sec 
+%32768 pts.at k=64,k2=8  	made for 1.75 sec 
+%32768 pts.at k=64,k2=16 	made for 0.93 sec 
+%32768 pts.at k=32,k2=32 	made for 0.5 sec 
+%65536 pts.at k=32,k2=32 	made for 1.82-1.92 sec 
+%131072 pts.at k=32,k2=32 	made for 7.08 sec 
+%262144 pts.at k=128,k2=32 	made for 27.24 sec 
+%262144 pts.at k=32,k2=128 	made for 7.19 sec 
+%262144 pts.at k=32,k2=256 	made for 3.74 sec 
+%262144 pts.at k=4,k2=256 	made for 5.38 sec 
+%262144 pts.at k=2,k2=256 	made for 12 sec 
+%262144 pts.at k=4,k2=1024 	made for 1.65 sec 
+%524288 pts.at k=4,k2=256 	made for 22.3 sec 
+%524288 pts.at k=4,k2=1024 	made for 5.83 sec 
+%524288 pts.at k=32,k2=32 	made for 112.65 sec 
+%1048576 pts.at k=8,k2=1024 	made for 16.86 sec 
+%1048576 pts.at k=1,k2=4096 	made for 31 sec 
